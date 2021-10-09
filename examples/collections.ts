@@ -58,7 +58,8 @@ export const QuizzesCollection: {[key: string]: QuizDict} = {
 export const ParticipationsCollection: {[key: string]: ParticipateDict} = {
     "participation_id1": {
         participation_id: "participation_id1",
-        created_by: UsersCollection[1],
+        created_by: UsersCollection[1], // modify this field according to 
+        // view in application
         participant: UsersCollection[0],
         timestamp: 123,
         score: 123,
